@@ -238,7 +238,7 @@ $GLOBALS['__KITABISACOM1337_COLOR__'] = array(
 			)
 		),
 		"options_list" => array(
-			"key_color" => "#00FF00",
+			"key_color" => "#ffffff",
 			"multi_selector" => array(
 				".content_options_holder .header center a" => "color: {color};",
 			)
