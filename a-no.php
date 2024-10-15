@@ -177,7 +177,7 @@ if(!isset($GLOBALS['DB_NAME']['safemode']))exit('$GLOBALS[\'DB_NAME\'][\'safemod
 if(!isset($GLOBALS['DB_NAME']['login_page']))exit('$GLOBALS[\'DB_NAME\'][\'login_page\']');
 if(!isset($GLOBALS['DB_NAME']['show_icons']))exit('$GLOBALS[\'DB_NAME\'][\'show_icons\']');
 if(!isset($GLOBALS['DB_NAME']['post_encryption']))exit('$GLOBALS[\'DB_NAME\'][\'post_encryption\']');
-define("__KITABISACOM1337_VERSION__", "4.1");
+define("__KITABISACOM1337_VERSION__", "4.2");
 define("__KITABISACOM1337_UPDATE__", "2");
 define("__KITABISACOM1337_CODE_NAME__", "Kitabisacom1337");
 define("__KITABISACOM1337_DATA_FOLDER__", "KITABISACOM1337_DATA");
