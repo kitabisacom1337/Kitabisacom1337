@@ -267,7 +267,7 @@ $GLOBALS['__KITABISACOM1337_COLOR__'] = array(
 			)
 		),
 		"hidden_shell_text" => array(
-			"key_color" => "#00FF00",
+			"key_color" => "#f44336",
 			"multi_selector" => array(
 				"#hidden_sh a" => "color: {color};",
 			)
@@ -492,7 +492,7 @@ $GLOBALS['__KITABISACOM1337_COLOR__'] = array(
 				".up_bar" => "background-color: {color};",
 			)
 		),
-		"mysql_tables" => "#00FF00",
+		"mysql_tables" => "#c90076",
 		"mysql_table_count" => "#67ABDF",
 		"copyright" => "#dfff00",
 		"scrollbar" => array(
@@ -1482,7 +1482,7 @@ __alert("<span style='color:red;'>UserName is Empty !</span>");
 }elseif($_POST["alfa8"] == "color"){
 echo('<center><p><div class="txtfont_header">| Custom Color |</div></p><form onSubmit="reloadColors();return false;" method=\'post\'>');
 echo '<table border="1"><tbody>';
-$template = '<tr><td style="text-align:center;"><a href="http://solevisible.com/customcolors/{help}.png" target="_blank"><font color="#00FF00">Help</font></a></td><td style="text-align:center;"><div class="tbltxt">{index}</div></td><td><div class="tbltxt" style="margin-left:5px;">{target}:</div></td><td><input style="width:60px;" multi="{multi}" id="gui_{target}" onChange="colorHandler(this);" target=".{target}" type="color" value="{color}"></td><td><input type="text" style="text-align:center;" multi="{multi}" onkeyup="colorHandlerKey(this);" target=".{target}" id="input_{target}" class="colors_input" placeholder="#ffffff" value="{color}"></td></tr>';
+$template = '<tr><td style="text-align:center;"><a href="http://solevisible.com/customcolors/{help}.png" target="_blank"><font color="#b4a7d6">Help</font></a></td><td style="text-align:center;"><div class="tbltxt">{index}</div></td><td><div class="tbltxt" style="margin-left:5px;">{target}:</div></td><td><input style="width:60px;" multi="{multi}" id="gui_{target}" onChange="colorHandler(this);" target=".{target}" type="color" value="{color}"></td><td><input type="text" style="text-align:center;" multi="{multi}" onkeyup="colorHandlerKey(this);" target=".{target}" id="input_{target}" class="colors_input" placeholder="#ffffff" value="{color}"></td></tr>';
 $x = 1;
 foreach($GLOBALS['__KITABISACOM1337_COLOR__'] as $key => $value){
 	$multi = "";
@@ -1647,7 +1647,7 @@ if(count($selected_data) > 0){
 			$tbls .= "Done ~~~> ".$file_name."<br>";
 		}
 		echo __pre();
-		echo "<center><font color='#00FF00'>".$tbls."</font></center>";
+		echo "<center><font color='#38761d'>".$tbls."</font></center>";
 	}
 }
 if(!empty($dbname) && count($selected_data) == 0){
@@ -1671,9 +1671,9 @@ if($db){
 
 	echo '<ul id="myUL">';
 	foreach($data as $tbl => $cols){
-	    echo '<li><span style="color:#00FF00;" class="box">'.$tbl.' ('.$cols["data_count"].')</span><ul class="nested">';
+	    echo '<li><span style="color:#c27ba0;" class="box">'.$tbl.' ('.$cols["data_count"].')</span><ul class="nested">';
 	    foreach($cols["cols"] as $col){
-	        echo '<li tbl="'.$tbl.'"><span style="color:#00FF00;" tbl="'.$tbl.'" class="box sub-box">' . $col . '</span></li>';
+	        echo '<li tbl="'.$tbl.'"><span style="color:#20124d;" tbl="'.$tbl.'" class="box sub-box">' . $col . '</span></li>';
 	    }
 	    echo '</ul></li>';
 	}
