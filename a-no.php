@@ -194,14 +194,14 @@ $GLOBALS['__KITABISACOM1337_COLOR__'] = array(
 				".foot" => "border-color: {color}",
 			)
 		),
-		"header_vars" => "#f1c232",
+		"header_vars" => "#ffffff",
 		"header_values" => "#ff9b00",
 		"header_on" => "#ff9b00",
 		"header_off" => "red",
 		"header_none" => "aqua",
 		"home_shell" => "#0f0",
 		"home_shell:hover" => array(
-			"key_color" => "#f1c232",
+			"key_color" => "#ffffff",
 			"multi_selector" => array(
 				".home_shell:hover" => "color: {color};",
 			)
@@ -298,7 +298,7 @@ $GLOBALS['__KITABISACOM1337_COLOR__'] = array(
 		"main_green_perm" => "#ff9b00",
 		"main_red_perm" => "red",
 		"main_white_perm" => "white",
-		"beetween_perms" => "#f1c232",
+		"beetween_perms" => "#ffffff",
 		"main_actions" => array(
 			"key_color" => "#FFFFFF",
 			"multi_selector" => array(
